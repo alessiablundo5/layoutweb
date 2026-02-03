@@ -1,0 +1,124 @@
+html{
+box-sizing: border-box;
+overscroll-behavior: none;
+}
+
+body {
+  margin:0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+    margin: 0;
+    padding: 0;
+}
+main{
+   max-width: 1100px;
+   margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.rettangolo {
+  width: 50px;
+  height: 400px;
+  background-color:#070707;
+} 
+
+.rettangolo2 {
+  width: 50px;
+  height: 410px;
+  background-color:#070707;
+} 
+
+.rettangolo3 {
+  width: 50px;
+  height: 290px;
+  background-color:#070707;
+} 
+
+.hero{
+    text-align: center;
+    font-style: italic;
+    padding: 120px 200px;
+    margin-top: 60px;
+    font-size: 22px;
+}
+
+header{
+    background: #070707;
+    padding: 120px;
+}
+
+header h1{
+    color: whitesmoke;
+    font-size: 44px;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    gap: 25px;
+    margin-top: 100px;
+}
+
+.card_imge{
+    width: 50%;
+}
+
+.card_text{
+    width: 50%;
+}
+
+.card_text p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.card_text h2{
+    font-size: 22px;
+     margin-bottom: 1.5rem;
+}
+
+footer{ 
+    background:#070707;
+    padding: 32px 16px;
+    margin-top: 100px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+@media (max-width:600px){
+  .card{
+    display: block;
+    margin-top: 16px;
+  }
+
+  header h1{
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 1.3em;
+  }
+
+  .hero{
+    margin: 0 auto;
+    padding: 120px 70px;
+  }
+
+  .card_imge,
+  .card_text{
+    width: 90%;
+    padding: 20px 0;
+    margin: 0 auto;
+  }
+
+  .rettangolo,
+  .rettangolo2,
+  .rettangolo3{
+    width: 90%;
+    height: 40px;
+    margin: 0 auto;
+  }
+}
