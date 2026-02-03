@@ -46,15 +46,6 @@ img{
     font-size: 22px;
 }
 
-.hero::before {
-  content: "";
-  display: block;
-  width: 80px;
-  height: 2px;
-  background: #000;
-  margin: 0 auto 30px;
-}
-
 header{
     background: #070707;
     padding: 120px;
